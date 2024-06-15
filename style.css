@@ -51,6 +51,9 @@ ul li a{
     text-decoration: none;
     color: white;
 }
+ul li a:hover{
+    color: rgb(63, 72, 204);
+}
 /*categorias*/
 .categorias{
     background-color: rgb(63, 72, 204);
@@ -301,8 +304,32 @@ footer .establecimiento h3{
     color: white;
     margin: 10px;
 }
-
+/*apartado herramientas*/
 .herramientas-inicio{
     display: flex;
-    padding: 4.5%;
+    padding: 2.7%;
+}
+
+/*apartado puestas*/
+
+.apartado-izquierda{
+    background-color:  rgb(63, 72, 204);
+    width: 70%; 
+    margin: auto;
+    padding: 4%;
+}
+.apartado-izquierda h3{
+    padding: 8%;
+}
+.apartado-izquierda h3 a{
+    text-decoration: none;
+    color: white;
+}
+.apartado-izquierda h3 a:hover{
+    color: dodgerblue;
+}
+.bidbidh{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
 }
