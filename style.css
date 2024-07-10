@@ -11,6 +11,7 @@ body{
     background-color: rgb(63, 72, 204);
     display: flex;
     justify-content: end;
+    height: 5vh;
 }
 .correos a{
     color: white;
@@ -25,6 +26,11 @@ header{
 .logo{
     background-color: cornflowerblue;
     display: flex;
+}
+.logo img{
+    display: flex;
+    width: 23vh;
+    margin: 10px 10vh;
 }
 .logo .ellogo img{
     width: 200px;
@@ -41,7 +47,7 @@ ul{
     display: flex;
     margin: auto;
     list-style: none;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 ul li{
     margin: 5px;
@@ -64,6 +70,7 @@ ul li a:hover{
 .categorias h3 a{
     color: white;
     text-decoration: none;
+    font-size: 1.4rem;
 }
 .categorias h3 a:hover{
     color: dodgerblue;
@@ -79,7 +86,7 @@ ul li a:hover{
     padding: 10px;
     border: 2px solid  cornflowerblue;
     border-radius: 10px;
-    width: 65%;
+    width: 100vh;
     height: 345px;
     margin: auto;
 }
@@ -91,14 +98,15 @@ ul li a:hover{
 }
 .cuadrado-afuera .oferta h3{
     display: flex;
-    padding: 10px 10px;
+    padding: 10px;
     margin: auto;
     color: white;
+    font-size: 1.1rem;
 }
 .cuadrado-afuera a img{
     display: flex;
     margin: auto;
-    width: 180px;
+    width: 15vh;
 }
 .cuadrado-afuera .oferta span{
     margin: 1px 11px;
@@ -152,7 +160,7 @@ ul li a:hover{
 /*categorías destacadas*/
 .categoria-grande{
     background-color: rgb(63, 72, 204);
-    height: 17vw;
+    height: 14vw;
     margin-top: 2%;
 }
 .categoria-grande .catego{
@@ -162,11 +170,10 @@ ul li a:hover{
 }
 .categoria-grande .catego .sub-categorias{
     background-color: cornflowerblue;
-    padding: 10px;
-    width: 100px;
-    height: 140px;
+    width: 10vh;
+    height: 15vh;
     border-radius: 15px;
-}
+}   
 .categoria-grande .catego .sub-categorias h3{
     display: flex;
     text-align: center;
