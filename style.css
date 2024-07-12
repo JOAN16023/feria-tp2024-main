@@ -47,7 +47,7 @@ ul{
     display: flex;
     margin: auto;
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 ul li{
     margin: 5px;
@@ -65,12 +65,12 @@ ul li a:hover{
     background-color: rgb(63, 72, 204);
     display: flex;
     justify-content: space-around;
-    padding: 7px;
+    /*padding: 7px;*/
 }
 .categorias h3 a{
     color: white;
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 .categorias h3 a:hover{
     color: dodgerblue;
@@ -106,7 +106,7 @@ ul li a:hover{
 .cuadrado-afuera a img{
     display: flex;
     margin: auto;
-    width: 15vh;
+    width: 18vh;
 }
 .cuadrado-afuera .oferta span{
     margin: 1px 11px;
@@ -170,7 +170,7 @@ ul li a:hover{
 }
 .categoria-grande .catego .sub-categorias{
     background-color: cornflowerblue;
-    width: 10vh;
+    /*width: 10vh;*/
     height: 15vh;
     border-radius: 15px;
 }   
@@ -182,7 +182,7 @@ ul li a:hover{
 .categoria-grande .catego .sub-categorias img{
     display: flex;
     margin: auto;
-    width: 90px;
+    width: 10vh;
 }
 .categoria-grande .catego a{
     text-decoration: none;
@@ -294,10 +294,12 @@ footer .logo-final a img{
 }
 footer .categorias-finales h3{
     margin: 10px;
+    font-size: 1.3rem;
 }
 footer .categorias-finales h2{
     color: white;
     margin: 10px;
+    font-size: 1.8rem;
 }
 footer .categorias-finales h3 a{
     text-decoration: none;
@@ -306,10 +308,12 @@ footer .categorias-finales h3 a{
 footer .establecimiento h2{
     color: white;
     margin: 10px;
+    font-size: 1.7rem;
 }
 footer .establecimiento h3{
     color: white;
     margin: 10px;
+    font-size: 1.3rem;
 }
 /*apartado herramientas*/
 .herramientas-inicio{
